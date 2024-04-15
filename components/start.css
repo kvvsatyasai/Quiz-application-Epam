@@ -1,0 +1,42 @@
+/* components/Start.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Add your preferred font-family */
+   background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zMDktYWV3LTAxM18xXzEuanBn.jpg');  
+  background-size: cover;
+  color: rgb(0, 0, 89);
+  background-position: center;
+}
+
+.start-container {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #bc1414;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #008412;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #e4d0d0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
